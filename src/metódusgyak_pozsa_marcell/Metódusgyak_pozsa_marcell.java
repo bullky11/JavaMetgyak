@@ -15,7 +15,8 @@ public class Metódusgyak_pozsa_marcell {
         kiir(kimenet);
         
         int szam1=7, szam2 =4 ;
-        kiir("%d + %d =%d\n".formatted(szam1,szam2,osszeg));
+        kiir("%d + %d =%d\n".formatted(szam1,szam2,(szam1+szam2)));
+        kiir("°%d +%d+%d+%d=%d\n".formatted(szam1 ,szam2,osszeg,(szam1+szam2),(szam1+szam2+osszeg+(szam1+szam2))));
     }
     private static int elso10szamOsszege() {
         //osszead
